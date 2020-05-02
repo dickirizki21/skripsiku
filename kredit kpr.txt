@@ -1,0 +1,25 @@
+activity diagram pengajuan kredit rumah subsidi
+
+customer
+- menanyakan informasi rumah subsidi
+- percabangan minat atau tidak.
+- pengajuan kredit rumah subsidi
+- mengisi formulir pengajuan rumah subsidi
+- mengembalikan formulir pengajuan rumah subsidi kepada marketing
+- melakukan akad kredit dengan bank
+- selesai
+
+marketing
+- memberikan informasi rumah subsidi
+- memberikan formulir pengajuan kredit rumah subsidi
+- menerima formulir kembali dari customer
+- menyerahkan formulir pengajuan kredit rumah subsidi kepada pihak bank
+
+bank
+- menerima formulir pengajuan rumah subsidi dari developer
+- melakukan analisis penerimaan KPR subsidi
+- percabangan diterima atau tidak
+
+
+dapus
+- http://repository.unair.ac.id/30201/3/3.%20BAB%202.pdf
