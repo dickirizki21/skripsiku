@@ -1,0 +1,121 @@
+Jenis Kelamin,Usia,Pendidikan,Profesi,Total Masa Kerja,Status Kerja,Status Pernikahan,Jumlah Tanggungan,Status Tmpt Tinggal,Total Penghasilan,Kredit Lainnya,Tunggakan,Keterangan
+PRIA,25-34,SMA / SLTA,Swasta Asing / PMA,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,KELUARGA,< 2000000,Kredit Barang,Tidak Menunggak,LOLOS
+WANITA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,<25,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Kredit Barang,Tidak Menunggak,TIDAK LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,> 2 Orang,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,MILIK SENDIRI,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,35-45,SMA / SLTA,PNS / Instansi / Departemen / Pemda,> 2 Tahun,Tetap,MENIKAH,1-2 Orang,DINAS,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,> 2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,KELUARGA,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,Diploma,Swasta Asing / PMA,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,S1,Swasta Besar / Menengah,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+WANITA,<25,Diploma,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,DINAS,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,KELUARGA,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,S1,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,> 2 Orang,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+WANITA,<25,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,KELUARGA,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,> 2 Tahun,Tetap,MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,25-34,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,S1,Swasta Besar / Menengah,> 2 Tahun,Tetap,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+WANITA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,SEWA / KONTRAK,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+WANITA,35-45,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,SEWA / KONTRAK,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,<25,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,<25,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,Diploma,PNS / Instansi / Departemen / Pemda,> 2 Tahun,Tetap,MENIKAH,1-2 Orang,MILIK SENDIRI,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,35-45,S1,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+WANITA,35-45,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+WANITA,25-34,Diploma,Swasta Asing / PMA,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,KELUARGA,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,Swasta Asing / PMA,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,MILIK SENDIRI,< 2000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,35-45,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,Swasta Asing / PMA,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,35-45,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,<25,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,KELUARGA,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,S1,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,35-45,S1,Swasta Besar / Menengah,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,35-45,S1,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Tidak Menunggak,TIDAK LOLOS
+PRIA,25-34,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,KELUARGA,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,S1,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Kredit Kendaraan,Menuggak,TIDAK LOLOS
+PRIA,25-34,Diploma,Swasta Asing / PMA,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,KELUARGA,< 2000000,Kredit Kendaraan,Menuggak,TIDAK LOLOS
+PRIA,>45,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Kredit Kendaraan,Menuggak,TIDAK LOLOS
+PRIA,25-34,S1,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,> 2 Orang,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,Diploma,Swasta Besar / Menengah,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,S1,Swasta Besar / Menengah,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,35-45,Diploma,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Kredit Kendaraan,Menuggak,TIDAK LOLOS
+WANITA,35-45,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,> 2 Orang,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,25-34,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,DINAS,2000000 - 3500000,Kredit Kendaraan,Menuggak,LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Besar / Menengah,< 1 Tahun,Kontrak,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,25-34,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,<25,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,KELUARGA,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Besar / Menengah,< 1 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,<25,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,KELUARGA,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,<25,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,35-45,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,35-45,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,> 2 Orang,SEWA / KONTRAK,2000000 - 3500000,Kredit Kendaraan,Menuggak,TIDAK LOLOS
+WANITA,25-34,S1,Swasta Asing / PMA,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,<25,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,<25,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,Swasta Asing / PMA,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,SMA / SLTA,Swasta Asing / PMA,< 1 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,MILIK SENDIRI,< 2000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,35-45,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,Tidak Ada,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Asing / PMA,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,KELUARGA,< 2000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,<25,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,KELUARGA,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,<25,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,> 2 Orang,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,35-45,Diploma,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+WANITA,35-45,SMA / SLTA,PNS / Instansi / Departemen / Pemda,> 2 Tahun,Tetap,MENIKAH,> 2 Orang,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,>45,Diploma,Swasta Besar / Menengah,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,<25,Diploma,Swasta Besar / Menengah,< 1 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,DINAS,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,MILIK SENDIRI,3600000 - 4000000,Kredit Barang,Tidak Menunggak,LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,35-45,Diploma,Swasta Asing / PMA,> 2 Tahun,Kontrak,MENIKAH,1-2 Orang,KELUARGA,3600000 - 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,>45,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+WANITA,35-45,Diploma,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,SMA / SLTA,PNS / Instansi / Departemen / Pemda,> 2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,> 2 Orang,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,Diploma,Swasta Besar / Menengah,1-2 Tahun,Tetap,MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Tetap,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Wiraswasta Besar / Menengah,< 1 Tahun,Pengusaha,MENIKAH,> 2 Orang,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,SMA / SLTA,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,Tidak Ada,MILIK SENDIRI,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,SMA / SLTA,Swasta Besar / Menengah,< 1 Tahun,Kontrak,MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,SMA / SLTA,Swasta Besar / Menengah,> 2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,35-45,Diploma,Swasta Besar / Menengah,< 1 Tahun,Kontrak,MENIKAH,1-2 Orang,DINAS,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,25-34,SMA / SLTA,Swasta Besar / Menengah,1-2 Tahun,Kontrak,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS
+PRIA,35-45,SMA / SLTA,Wiraswasta Besar / Menengah,> 2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,35-45,Diploma,Swasta Besar / Menengah,1-2 Tahun,Kontrak,MENIKAH,1-2 Orang,DINAS,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,25-34,Diploma,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,MILIK SENDIRI,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,KELUARGA,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+WANITA,<25,S1,Wiraswasta Besar / Menengah,< 1 Tahun,Pengusaha,BELUM MENIKAH,Tidak Ada,SEWA / KONTRAK,3600000 - 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,<25,Diploma,Swasta Besar / Menengah,> 2 Tahun,Kontrak,MENIKAH,> 2 Orang,SEWA / KONTRAK,> 4000000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,S1,Wiraswasta Besar / Menengah,1-2 Tahun,Pengusaha,MENIKAH,1-2 Orang,SEWA / KONTRAK,2000000 - 3500000,Tidak Ada ,Tidak Ada,LOLOS
+PRIA,35-45,SMA / SLTA,PNS / Instansi / Departemen / Pemda,1-2 Tahun,Tetap,MENIKAH,1-2 Orang,MILIK SENDIRI,2000000 - 3500000,Tidak Ada ,Tidak Ada,TIDAK LOLOS

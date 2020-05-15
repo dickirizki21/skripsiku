@@ -1,0 +1,312 @@
+@relation test
+
+@attribute 'Jenis Kelamin' {PRIA,WANITA}
+@attribute Usia {'25 Tahun','31 Tahun','41 Tahun','22 Tahun','23 Tahun','26 Tahun','28 Tahun','30 Tahun','21 Tahun','35 Tahun','29 Tahun','43 Tahun','27 Tahun','20 Tahun','34 Tahun','24 Tahun','33 Tahun','32 Tahun','40 Tahun','36 Tahun','37 Tahun',24Tahun,'38 Tahun','47 Tahun','45 Tahun','50 Tahun','48 Tahun','39 Tahun','42 Tahun','46 Tahun','38 tahun'}
+@attribute Pendidikan {'SMA / SLTA',S1,Diploma}
+@attribute Profesi {'Swasta Asing / PMA','Wiraswasta Besar / Menengah','Swasta Besar / Menengah','PNS / Instansi / Departemen / Pemda'}
+@attribute 'Total Masa Kerja' {'1 - 2 Tahun','> 2 Tahun','< 1 Tahun'}
+@attribute 'Status Kerja' {Tetap,Pengusaha,Kontrak}
+@attribute 'Status Pernikahan' {'BELUM MENIKAH',MENIKAH}
+@attribute 'Jumlah Tanggungan' {'Tidak Ada','1 - 3 Orang','> 3 Orang'}
+@attribute 'Status Tmpt Tinggal' {KELUARGA,'SEWA / KONTRAK','MILIK SENDIRI',DINAS}
+@attribute 'Total Penghasilan' {'< 2000000','2000000 - 3500000','> 4000000','3600000 - 4000000'}
+@attribute 'Kredit Lainnya' {'Kredit Barang','Tidak Ada ','Kredit Kendaraan'}
+@attribute Tunggakan {'Tidak Menunggak','Tidak Ada',Menuggak}
+@attribute Keterangan {LOLOS,'TIDAK LOLOS'}
+
+@data
+PRIA,'25 Tahun','SMA / SLTA','Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Kredit Barang','Tidak Menunggak',LOLOS
+WANITA,'31 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'41 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'25 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'22 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'23 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'26 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'26 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'30 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'35 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,MENIKAH,'Tidak Ada',DINAS,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'26 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'26 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun',Diploma,'Swasta Asing / PMA','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'43 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'30 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'27 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'20 Tahun',S1,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'25 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'25 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'22 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'26 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'34 Tahun',S1,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'24 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'33 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'25 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'27 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',S1,'Swasta Besar / Menengah','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'32 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'40 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'22 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'23 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'23 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'23 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','MILIK SENDIRI','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'40 Tahun',S1,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'36 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'> 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'26 Tahun',Diploma,'Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','< 2000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'37 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun',Diploma,'Swasta Asing / PMA','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,24Tahun,Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'43 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'23 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'43 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'38 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'29 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun',S1,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Kendaraan',Menuggak,'TIDAK LOLOS'
+PRIA,'27 Tahun',Diploma,'Swasta Asing / PMA','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Kredit Kendaraan',Menuggak,'TIDAK LOLOS'
+PRIA,'47 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Kendaraan',Menuggak,'TIDAK LOLOS'
+PRIA,'34 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun',S1,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'40 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'> 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Kendaraan',Menuggak,'TIDAK LOLOS'
+WANITA,'38 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'33 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'30 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'27 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Kredit Kendaraan',Menuggak,LOLOS
+WANITA,'30 Tahun','SMA / SLTA','Swasta Besar / Menengah','< 1 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'25 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,24Tahun,'SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'25 Tahun','SMA / SLTA','Swasta Besar / Menengah','< 1 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'24 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'25 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'22 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'35 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'> 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'36 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Kendaraan',Menuggak,'TIDAK LOLOS'
+WANITA,'27 Tahun',S1,'Swasta Asing / PMA','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,24Tahun,S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'21 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',Diploma,'Swasta Asing / PMA','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun','SMA / SLTA','Swasta Asing / PMA','< 1 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','< 2000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'43 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'25 Tahun','SMA / SLTA','Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'24 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'23 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'> 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'45 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'36 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,MENIKAH,'Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'50 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'23 Tahun',Diploma,'Swasta Besar / Menengah','< 1 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'34 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'> 3 Orang','MILIK SENDIRI','3600000 - 4000000','Kredit Barang','Tidak Menunggak',LOLOS
+PRIA,'28 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'40 Tahun',Diploma,'Swasta Asing / PMA','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'48 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'35 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'22 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'40 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'23 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'> 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'27 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'32 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,MENIKAH,'Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','MILIK SENDIRI','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun','SMA / SLTA','Swasta Besar / Menengah','< 1 Tahun',Kontrak,MENIKAH,'> 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'26 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'37 Tahun',Diploma,'Swasta Besar / Menengah','< 1 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'27 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'37 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'41 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'26 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','MILIK SENDIRI','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'42 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'24 Tahun',S1,'Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'45 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','MILIK SENDIRI','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'29 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','> 4000000','Kredit Barang','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'40 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,24Tahun,'SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun','SMA / SLTA','Swasta Asing / PMA','> 2 Tahun',Kontrak,MENIKAH,'Tidak Ada','MILIK SENDIRI','< 2000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'29 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'33 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'27 Tahun',Diploma,'Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'34 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'23 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'38 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'23 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'26 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'50 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'31 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'39 Tahun',Diploma,'Swasta Asing / PMA','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'27 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'23 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun','SMA / SLTA','Swasta Asing / PMA','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',DINAS,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',Diploma,'Swasta Besar / Menengah','< 1 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'36 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Kredit Kendaraan','Tidak Menunggak','TIDAK LOLOS'
+WANITA,'26 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','< 1 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'42 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'43 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'23 Tahun',Diploma,'Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'30 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'30 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'42 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'50 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'42 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'46 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'> 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'41 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'41 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'43 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'42 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'41 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'38 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Kredit Kendaraan',Menuggak,LOLOS
+WANITA,'26 Tahun',Diploma,'Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'26 Tahun',S1,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'33 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'22 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'46 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'37 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'38 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'> 3 Orang',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'39 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',DINAS,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'48 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'22 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'23 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'38 tahun',Diploma,'PNS / Instansi / Departemen / Pemda','< 1 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'27 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,24Tahun,S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'38 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'29 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'30 Tahun',S1,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'24 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'27 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'41 Tahun','SMA / SLTA','Swasta Asing / PMA','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','MILIK SENDIRI','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'33 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'28 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'27 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'34 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'35 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun',S1,'Swasta Asing / PMA','> 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'35 Tahun',Diploma,'Swasta Asing / PMA','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','< 2000000','Kredit Kendaraan',Menuggak,'TIDAK LOLOS'
+PRIA,'22 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'21 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'33 Tahun',Diploma,'Swasta Asing / PMA','< 1 Tahun',Tetap,MENIKAH,'1 - 3 Orang','MILIK SENDIRI','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'40 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'42 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'32 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'26 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'41 Tahun',S1,'Swasta Asing / PMA','> 2 Tahun',Kontrak,MENIKAH,'> 3 Orang','MILIK SENDIRI','< 2000000','Kredit Kendaraan','Tidak Menunggak',LOLOS
+PRIA,'21 Tahun',S1,'Swasta Asing / PMA','< 1 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,24Tahun,'SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'31 Tahun',S1,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,24Tahun,'SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'28 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'47 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','< 1 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'33 Tahun','SMA / SLTA','Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'27 Tahun',S1,'Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'41 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'> 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Kredit Barang','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'30 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'38 tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,24Tahun,'SMA / SLTA','PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'26 Tahun',S1,'PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'35 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'24 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'41 Tahun','SMA / SLTA','Swasta Asing / PMA','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun',Diploma,'Swasta Asing / PMA','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'26 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+WANITA,'22 Tahun',S1,'Wiraswasta Besar / Menengah','< 1 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'28 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','< 1 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'36 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','< 1 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'43 Tahun','SMA / SLTA','Swasta Besar / Menengah','< 1 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'40 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'> 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'25 Tahun','SMA / SLTA','Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',DINAS,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'41 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'38 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada','TIDAK LOLOS'
+PRIA,'41 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'35 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun',Diploma,'PNS / Instansi / Departemen / Pemda','> 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'24 Tahun',S1,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun','SMA / SLTA','Swasta Asing / PMA','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',KELUARGA,'< 2000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'25 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'27 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'37 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',DINAS,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'36 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','MILIK SENDIRI','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'23 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+WANITA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'41 Tahun',S1,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'23 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'34 Tahun',S1,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'29 Tahun',S1,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'42 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'21 Tahun','SMA / SLTA','Swasta Besar / Menengah','< 1 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'25 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Kredit Barang','Tidak Menunggak',LOLOS
+WANITA,'29 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'36 Tahun',Diploma,'Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'25 Tahun',Diploma,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada',DINAS,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'22 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'35 Tahun',S1,'Swasta Besar / Menengah','> 2 Tahun',Kontrak,MENIKAH,'> 3 Orang','SEWA / KONTRAK','> 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'22 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'34 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'42 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'24 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'24 Tahun','SMA / SLTA','Swasta Asing / PMA','1 - 2 Tahun',Tetap,'BELUM MENIKAH','Tidak Ada',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'24 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'42 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'> 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang','Tidak Menunggak','TIDAK LOLOS'
+PRIA,'25 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'43 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+WANITA,'27 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+WANITA,'22 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','> 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','3600000 - 4000000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'34 Tahun','SMA / SLTA','PNS / Instansi / Departemen / Pemda','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'50 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Kredit Barang',Menuggak,'TIDAK LOLOS'
+PRIA,'37 Tahun','SMA / SLTA','Swasta Besar / Menengah','1 - 2 Tahun',Tetap,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','> 4000000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'28 Tahun',Diploma,'Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'29 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,'BELUM MENIKAH','Tidak Ada',KELUARGA,'2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+WANITA,'23 Tahun',Diploma,'Swasta Besar / Menengah','1 - 2 Tahun',Kontrak,MENIKAH,'1 - 3 Orang','SEWA / KONTRAK','2000000 - 3500000','Tidak Ada ','Tidak Ada',LOLOS
+PRIA,'41 Tahun','SMA / SLTA','Wiraswasta Besar / Menengah','1 - 2 Tahun',Pengusaha,MENIKAH,'1 - 3 Orang',KELUARGA,'3600000 - 4000000','Tidak Ada ','Tidak Ada',LOLOS

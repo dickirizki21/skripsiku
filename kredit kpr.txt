@@ -14,7 +14,7 @@ marketing
 - memberikan formulir pengajuan kredit rumah subsidi
 - menerima formulir kembali dari customer
 - menyerahkan formulir pengajuan kredit rumah subsidi kepada pihak bank
-
+ 
 bank
 - menerima formulir pengajuan rumah subsidi dari developer
 - melakukan analisis penerimaan KPR subsidi
@@ -23,3 +23,45 @@ bank
 
 dapus
 - http://repository.unair.ac.id/30201/3/3.%20BAB%202.pdf
+-----------------------------------------------------------------------------------------
+Note
+- Minimum Leaf Size
+  Ukuran daun minimum adalah batas untuk membelah sebuah simpul ketika jumlah pengamatan di salah satu simpul anak lebih rendah dari ukuran daun minimum. Memisahkan sebuah simpul dalam dua atau lebih node anak harus masuk akal secara statistik
+
+- Memilih leaf selanjutnya jika angka 0 pilih kemungkinan terbanyak
+
+
+
+
+https://www.analisis-data.com/2018/11/algoritma-decision-tree-c45.html
+https://informatikalogi.com/algoritma-c4-5/
+
+--------------------PERHITUNGAN C4.5 MANUAL------------------------------------
+
+-Logika dalam menentukan node akar selanjutnya ketika sudah menemukan node akar
+1.harusnya cari nilai atribut yang entropynya 1, dan dijadikan node akar berikutnya jika tidak ada nilai atribut yang entropynya 1, maka cari entropy tertinggi dan digunakan sebagai node selanjutnya
+
+-Logika menentukan keputusan dari cabang nilai atribut.
+1.harusnya jika hasil entropy dari nilai atribut 0 maka keputusannya amil dari kemungkinan terbesar, contoh lolos 10 tidak lolos 0, maka hasil keputusannya adalah lolos
+
+2.jika hasil entropy dari nilai atribut tidak ada yang bernilai 0 maka tentukan hasil entropy dari nilai atribut yang paling besar, dan sisa hasil entropy atribut tersebut dijadikan leaf selanjutnya, maka keputusannya amil dari kemungkinan terbesar, contoh lolos 19 tidak lolos 15, maka hasil keputusannya adalah lolos
+
+3. PENGETAHUAN PAKAR ATAU MEMILIH PADA HASIL ACAK
+
+1. Criterion : digunakan untuk memilih kriteria untuk menentukan atribut yang akan
+dijadikan sebagai akar decision tree. Kriteria-kriteria pada criterion yaitu :
+a. Gain_ratio : menghasilkan information gain untuk setiap atribut yang
+memberikan nilai atribut yang seragam.
+b. Information_gain : dengan metode ini semua semua entropy akan dihitung.
+c. Gini_index : memisahkan atribut yang dipilih memberikan penurunan indeks
+gini rata-rata yang dihasilkan subset. d. Accuracy : memilih beberapa atribut untuk memecah pohon yang
+memaksimalkan akurasi dari keseluruhan pohon.
+2. Minimal size of split : digunakan untuk menentukan ukuran dari simpul-simpul
+pada decision tree. 
+3. Minimal leaf size : pohon yang dihasilkan sedemikian rupa memiliki himpunan
+bagian simpul daun setidaknya sebanyak jumlah minimal leaf size. 
+4. Minimal gain : merupakan nilai gain minimal yang ditentukan untuk
+menghasilkan simpul pohon keputusan.
+5. Maximal depth : digunakan untuk membatasi ukuran putusan pohon.
+6. Confidence : berguna untuk menentukan tingkat kepercayaan yang digunakan
+untuk pesimis kesalahan perhitungan pemangkasan
