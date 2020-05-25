@@ -35,6 +35,9 @@ Note
 
 https://www.analisis-data.com/2018/11/algoritma-decision-tree-c45.html
 https://informatikalogi.com/algoritma-c4-5/
+https://cahyadsn.phpindonesia.id/extra/c45.php
+https://yeyekh.wordpress.com/2009/01/20/decision-tree/
+https://medium.com/@xzz201920/post-pruning-techniques-in-decision-tree-4be56636172b
 
 --------------------PERHITUNGAN C4.5 MANUAL------------------------------------
 
@@ -65,3 +68,14 @@ menghasilkan simpul pohon keputusan.
 5. Maximal depth : digunakan untuk membatasi ukuran putusan pohon.
 6. Confidence : berguna untuk menentukan tingkat kepercayaan yang digunakan
 untuk pesimis kesalahan perhitungan pemangkasan
+7. pemilihan gain = jika nilai gain = atau semakin mendekati nilai entropy node cabang maka semakin tidak berpengaruh, maka cari node tertinggi lainnya
+
+
+Berikut adalah Kondisi berhenti pada pembuatan decision tree:
+1.Semua data latih memiliki kelas yang sama.Pada kasus ini bentuklah sebuah leaf yang berisi kelas tersebut berdasarkan pengetahuan pakar atau memilih pada hasil acak
+2.Data latih kosong (tidak memiliki isi). Pada kondisi ini pembentukan tree dihentikan.
+3.Suatu variable tidak memiliki nilai (kosong).Jika kondisi ini terjadi. Buatlah sebuah leaf  yang berisi kelas yang paling banyak muncul atau pemilihan berdasarkan pengetahuan pakar atau memilih pada hasil acak. 
+
+
+
+
